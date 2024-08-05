@@ -28,6 +28,9 @@ ext {
 }
 
 dependencies {
+	// jwt 추가
+	implementation 'io.jsonwebtoken:jjwt:0.12.6'
+
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
